@@ -15,3 +15,5 @@ python train.py
 
 (4) For comparison with CPD, we use the package: https://github.com/siavashk/pycpd
 
+
+(5) geotnf is modified based on the code from paper: Convolutional neural network architecture for geometric matching,Ignacio Rocco, Relja Arandjelović, Josef Sivic.
