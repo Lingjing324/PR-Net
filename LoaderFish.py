@@ -13,7 +13,6 @@ import geotnf.transformation
 import torch
 import geotnf.point_tnf
 import tqdm
-
 from scipy.spatial.distance import squareform,pdist
 
 def Tps_trans(Y,theta):
