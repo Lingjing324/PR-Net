@@ -341,7 +341,7 @@ class TpsGridGen(Module):
         
         #print(points_Z_prime.shape)
 
-        fuck=torch.cat([points_X_prime,points_Y_prime,points_Z_prime],4)
+        res=torch.cat([points_X_prime,points_Y_prime,points_Z_prime],4)
         
-        return fuck
+        return res
         

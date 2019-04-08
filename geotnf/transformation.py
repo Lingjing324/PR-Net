@@ -270,7 +270,7 @@ class TpsGridGen(Module):
                        torch.mul(A_Y[:,:,:,:,2],points_Y_batch.cuda()) + \
                        torch.sum(torch.mul(W_Y,U.expand_as(W_Y)),4)
 
-        fuck=torch.cat([points_X_prime,points_Y_prime],3)
+        res=torch.cat([points_X_prime,points_Y_prime],3)
         
-        return fuck
+        return res
         
